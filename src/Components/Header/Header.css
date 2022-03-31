@@ -1,0 +1,17 @@
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.nav-bar {
+    margin: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

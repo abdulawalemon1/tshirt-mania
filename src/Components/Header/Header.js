@@ -1,10 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './Header.css';
 
 const Header = () => {
     return (
         <div>
-            <h2>Welcome to Tshirt Mania!!</h2>
-            <nav>
+            <nav className='nav-bar'>
+                <div>
+                    <h2>Welcome to Tshirt Mania!!</h2>
+                </div>
+                <div>
+                    <Link to="/home">Home</Link>
+                    <Link to="/orderreveiw">Order Reveiw</Link>
+                </div>
 
             </nav>
         </div>
